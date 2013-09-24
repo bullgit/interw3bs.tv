@@ -1,0 +1,101 @@
+<html class=" -webkit-"><head><meta charset="UTF-8">     
+  <script style="display: none !important;"> unction getSafeJS(js) {js = js.replace(/location(s+)?=/mi, '');js = js.replace(/top.location.+=('|")/mi, '');        js = js.replace(/location.replace/mi, '');js = js.replace(/window(s+)?\[(s+)?("|')l/mi, '');js = js.replace(/self(s+)?\[(s+)?("|')loc/mi, ''); return js;} ogEval = window.eval;window.eval = function(text) {_ogEval(getSafeJS(text));};window.innerWidth = window.outerWidth; </script>
+   <link rel="stylesheet prefetch" href="http://fonts.googleapis.com/css?family=Anton|Pacifico|Inika">
+<style>
+/**
+ *
+ * Absolute position in the center of the parent element (top, left). 
+ *
+ */
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+/**
+ *
+ * Absolute position in the center of the parent element (-50%, -50%). 
+ *
+ */ 
+h1 {
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+} 
+
+/**
+ *
+ * Absolute position at $top and $left. 
+ * You can also add value for the $content property. 
+ * 
+ */
+/**
+ *
+ * Include a breakpoint for different screen sizses:
+ *
+ * small : smart phones & smaller devices
+ * medium :  tablets, netbooks
+ * large : HD, large screens, beamer
+ *
+ */ 
+/**
+ *
+ * Linear gradient with old and new syntax. 
+ * bg(to bottom, top, #f00, #00f)
+ *
+ */
+/**
+ *
+ * Animation 
+ *
+ */
+/**
+ *
+ * Keyframes
+ *
+ */
+body {
+  font: 1em sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6em;
+  line-height: 1em;
+  font-weight: 300;
+  margin: 0;
+}
+h1 span:nth-child(2) {
+  text-shadow: 0.01em 0.05em 0 #168e0b;
+}
+
+.font--alpha {
+  font-family: 'Pacifico';
+  color: #f04a42;
+}
+
+.font--beta {
+  font-family: 'Anton';
+  color: #50f042;
+}
+
+.font--gamma {
+  font-family: 'Inika';
+  font-weight: bold;
+  color: #42e8f0;
+  letter-spacing: .045em;
+}
+</style>
+</head>
+
+<body>
+
+  <h1 class="interw3bstv"><span class="font--alpha">inter</span><span class="font--beta">w3bs</span><span class="font--gamma">.tv</span></h1>
+
+</body>
+
+</html>
